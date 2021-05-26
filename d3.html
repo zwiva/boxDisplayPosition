@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 720px;
+    }
+
+    .bandera {
+      width: 40%;
+      border: 0.5px solid #eaeaea;
+      height: 200px;
+      margin: 2.5%;
+    }
+
+    .espana-r {
+      background-color: red;
+      height: 25%;
+    }
+
+    .espana-a {
+      background-color: yellow;
+      height: 50%;
+    }
+
+    .dinamarca-r {
+      background-color: red;
+    }
+
+    .stripe {
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    .s {
+      width: 35%;
+      height: 95px;
+      margin-right: 16px;
+    }
+
+    .l {
+      width: 65%;
+      height: 95px;
+    }
+
+    .emirate-r {
+      float: left;
+      background-color: red;
+      width: 25%;
+      height: 200px;
+    }
+
+    .emirate-g {
+      background-color: green;
+      height: 67px;
+    }
+
+    .emirate-w {
+      background-color: white;
+      height: 67px;
+    }
+
+    .emirate-b {
+      background-color: black;
+      height: 67px;
+    }
+
+    .container-japan {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      place-items: center;
+    }
+
+    .japan {
+      background-color: red;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="bandera">
+      <div class="espana-r"></div>
+      <div class="espana-a"></div>
+      <div class="espana-r"></div>
+    </div>
+    <div class="bandera">
+      <div class="stripe">
+        <div class="dinamarca-r s"></div>
+        <div class="dinamarca-r l"></div>
+      </div>
+      <div class="stripe">
+        <div class="dinamarca-r s"></div>
+        <div class="dinamarca-r l"></div>
+      </div>
+    </div>
+    <div class="bandera">
+      <div class="emirate-strips">
+        <div class="emirate-r">
+        </div>
+        <div class="stripe-3">
+          <div class="emirate-g"></div>
+          <div class="emirate-w"></div>
+          <div class="emirate-b"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bandera container-japan">
+      <div class="japan"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
